@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <style>
+    .border {
+      display: inline-block;
+      padding: 10px;
+      width: 800px;
+      height: auto auto;
+      margin: 6px;
+    }
+
+    table {
+      margin: auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>s
+  <div class="container" style="margin-top:30px">
+    <div class="col-sm-8">
+
+      <h2>자기소개</h2>
+      <div class="border border-primary">
+        ● 이름 : 포도당 <br />
+        ● 사는곳 : 양천구 <br />
+        ● 자기소개 : 안녕하세요 저는 포도당 입니다. 만나서 반갑습니다. 앞으로 잘 부탁드립니다. DM 언제든지 환영 입니다.
+      </div>
+      <br>
+
+      <h2>인생 영화 BEST5</h2>
+      <div class="border border-primary">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">순위</th>
+              <th scope="col">제목</th>
+              <th scope="col">포스터</th>
+              <th scope="col">줄거리</th>
+              <th scope="col">바로가기</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>엔드게임</td>
+              <td width=200><img src="../images/end_game_img.jpg" alt="end_game_img" class="img-thumbnail"></td>
+              <td width=300>인피니티 워 이후 절반만 살아남은 지구 마지막 희망이 된 어벤져스 먼저 떠난 그들을 위해 모든 것을 걸었다!
+                위대한 어벤져스 운명을 바꿀 최후의 전쟁이 펼쳐진다!</td>
+              <td><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=136900" target="_blank">클릭</a></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>신세계</td>
+              <td width=200><img src="../images/new_world_img.jpg" alt="new_world_img" class="img-thumbnail"></td>
+              <td width=300>
+                골드문 회장이 갑자기 사망하자, 강과장(최민식)은 후계자 결정에 직접 개입하는 '신세계' 작전을 설계한고 모든 순간을 함께 해 온 자성(이정재)에게 더욱 강한 신뢰를 보낸다.
+                한편, 작전의 성공만 생각하는 강과장(최민식)은 계속해서 자성(이정재)의 목을 조여만 간다.</td>
+              <td><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=91031" target="_blank">클릭</a></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>인셉션</td>
+              <td width=200><img src="../images/inception_img.jpg" alt="inception_img" class="img-thumbnail"></td>
+              <td width=300>우연한 사고로 국제적인 수배자가 된 그는 기업간의 전쟁 덕에 모든 것을 되찾을 수 있는 기회를 얻게 된다.
+                하지만 임무는 머릿속의 정보를 훔쳐내는 것이 아니라, 반대로 머릿속에 정보를 입력시켜야 하는 것! 그는 ‘인셉션’이라 불리는 이 작전을 성공시키기 위해 최강의 팀을 조직한다.</td>
+              <td><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=52515" target="_blank">클릭</a></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>기생충</td>
+              <td width=200><img src="../images/parasite_img.jpg" alt="parasite_img" class="img-thumbnail"></td>
+              <td width=300>전원백수로 살 길 막막하지만 사이는 좋은 기택(송강호) 가족.
+                장남 기우(최우식)에게 명문대생 친구가 연결시켜 준 고액 과외 자리는
+                모처럼 싹튼 고정수입의 희망이다. </td>
+              <td><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=161967" target="_blank">클릭</a></td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>어바웃타임</td>
+              <td width=200><img src="../images/about_time_img.jpg" alt="about_time_img" class="img-thumbnail"></td>
+              <td width=300>꿈을 위해 런던으로 간 팀은 우연히 만난 사랑스러운 여인 메리에게 첫눈에 반하게 된다.
+                그녀의 사랑을 얻기 위해 자신의 특별한 능력을 마음껏 발휘하는 팀.
+                어설픈 대시, 어색한 웃음은 리와인드! 뜨거웠던 밤은 더욱 뜨겁게 리플레이!</td>
+              <td><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=92075" target="_blank">클릭</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+      <br>
+
+      <h2>방명록</h2>
+      <div class="border border-primary">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-sm-4">이름 : <input type="text" class="form-control" id="name"
+                placeholder="이름 입력" name="name" /> </label>
+          </div>
+        </form>
+        <div class="form-group">
+          <label class="control-label col-sm-10" for="email">본인 취향 영화 : 
+            <div class="form-check-inline">
+              <label class="form-check-label" for="check1">
+                <input type="checkbox" class="form-check-input" id="check1" name="movie" value="end_game" checked>엔드게임
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label" for="check2">
+                <input type="checkbox" class="form-check-input" id="check2" name="movie" value="new_world">신세계
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label" for="check2">
+                <input type="checkbox" class="form-check-input" id="check3" name="movie" value="inception">인셉션
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label" for="check2">
+                <input type="checkbox" class="form-check-input" id="check4" name="movie" value="parasite">기생충
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label" for="check2">
+                <input type="checkbox" class="form-check-input" id="check5" name="movie" value="about_time">어바웃타임
+              </label>
+            </div>
+          </label>
+        </div>
+
+        <div style="margin: 15px">
+          <button type="submit" class="btn btn-primary">등록</button>
+          <button type="submit" class="btn btn-primary">취소</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
